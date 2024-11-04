@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:padding="12px">
+                android:padding="12dp">
 
                 <net.skyscanner.backpack.text.BpkText
                     style="@style/bpkTextHeading2"
@@ -110,7 +110,7 @@
         android:layout_height="106dp"
         android:background="@color/bpkSkyBlueShade01"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bpkDepartureCard"
         app:srcCompat="@drawable/bpk_flight_landing"
@@ -175,8 +175,8 @@
 
     <ImageView
         android:id="@+id/bottomImg"
-        android:layout_width="fill_parent"
-        android:layout_height=""
+        android:layout_width="410dp"
+        android:layout_height="229dp"
         android:background="@color/bpkSkyBlueShade01"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
